@@ -1,0 +1,22 @@
+NAZWA
+	 ./katalog_html - tworzy listę plików w formie strony HTML
+SKŁADNIA
+	 ./katalog_html [PARAMETRY] [KATALOGI/PLIKI] 
+OPIS
+	Tworzy listę plików w postaci strony HTMl. Umozliwia sortowanie alfabetyczne rosnąco, malejąco lub wcale w ramach sekcji
+	Program standardowo tworzy 3 sekcje : ZDJĘCIA, DOKUMENTY, MUZYKA. Możesz dodać własne za pomocą odpowiedniego parametru
+	Rozszerzenia plików należy podawać ze znakiem '.' np '.gif'
+	Program domyslnie nie sortuje wyników, użyj odpowiedniego parametru, aby to zmienić
+
+	Parametry i ich obrasnienia:
+
+	-s NAZWA ROZSZERZENIA	 : definiuje nową sekcię
+	-r			 : sortuje wpisy alfabetycznie rosnąco
+	-m			 : sortuje wpisy alfabetycznie malejąco
+	-h			 : wyświetla pomoc
+
+PRZYKŁAD
+	./katalog_html -r -s "Wideo" ".avi .mp4" -s "TEX" ".tex" /home/JA/Dokumenty /home/JA/Obrazy /tmp/grafika.png
+AUTOR
+	 Kamil Piotrowski
+
